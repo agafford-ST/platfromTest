@@ -13,7 +13,7 @@
           "name": "ExoNaut",
           "architecture": "esp32",
           "version": "1.0.0",
-          "category": "ESP32",
+          "category": "Contributed",
           "url": "https://github.com/agafford-ST/platfromTest/raw/refs/heads/main/ExoNaut-1.0.0.zip",
           "archiveFileName": "ExoNaut-1.0.0.zip",
           "checksum": "D020F19798A8075766E7E94C8FDE80E9EEE6645B3BE89733D5EA7AD3C96B18C6",
