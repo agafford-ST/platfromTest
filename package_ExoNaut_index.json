@@ -1,29 +1,26 @@
 {
   "packages": [
     {
-      "name": "ExoNaut",
+      "name": "exonaut",
       "maintainer": "Space Trek",
-      "websiteURL": "https://github.com/espressif/arduino-esp32",
+      "websiteURL": "https://github.com/agafford-ST/platfromTest",
       "email": "agafford@spacetrek.com",
-      "help": {
-        "online": "http://esp32.com"
-      },
       "platforms": [
         {
-          "name": "ExoNaut",
+          "name": "ExoNaut Platform",
           "architecture": "esp32",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://github.com/agafford-ST/platfromTest/raw/refs/heads/main/ExoNaut-1.0.0.zip",
           "archiveFileName": "ExoNaut-1.0.0.zip",
-          "checksum": "D020F19798A8075766E7E94C8FDE80E9EEE6645B3BE89733D5EA7AD3C96B18C6",
-          "size": "20555301",
+          "checksum": "8C5EF02C8030A2CF5A54CDF91DAD148614E710D3E538A99D8E7475E1ADC0CA95",
+          "size": "20555322",
           "help": {
             "online": ""
           },
           "boards": [
             {
-              "name": "ExoNaut ESP32"
+              "name": "ExoNaut"
             },
           ],
           "toolsDependencies": [
