@@ -1,64 +1,31 @@
 {
   "packages": [
     {
-      "name": "exonaut",
-      "maintainer": "Space Trek",
-      "websiteURL": "https://github.com/agafford-ST/platfromTest",
-      "email": "agafford@spacetrek.com",
+      "name": "ExoNaut",
+      "maintainer": "SpaceTrek", 
+      "websiteURL": "https://github.com/agafford-ST/platfromTest/",
+      "email": "ryan.bori@spacetrek.com", 
       "platforms": [
         {
-          "name": "ExoNaut Platform",
+          "name": "ExoNaut ESP32 Core", 
           "architecture": "esp32",
-          "version": "1.0.0",
+          "version": "1.0.0", 
           "category": "Contributed",
-          "url": "https://github.com/agafford-ST/platfromTest/raw/refs/heads/main/ExoNaut-1.0.0.zip",
-          "archiveFileName": "ExoNaut-1.0.0.zip",
-          "checksum": "8C5EF02C8030A2CF5A54CDF91DAD148614E710D3E538A99D8E7475E1ADC0CA95",
-          "size": "20555322",
+          "url": "https://agafford-ST.github.io/platfromTest/YOUR_CHOSEN_ZIP_FILENAME.zip",
+          "archiveFileName": "YOUR_CHOSEN_ZIP_FILENAME.zip",
+          "checksum": "SHA-256:CHECKSUM_OF_YOUR_ZIP",
+          "size": "SIZE_IN_BYTES_OF_YOUR_ZIP",
           "help": {
-            "online": ""
+            "online": "https://github.com/agafford-ST/platfromTest/"
           },
           "boards": [
-            {
-              "name": "ExoNaut"
-            },
+            { "name": "ESP32 Dev Module (ExoNaut)" }
           ],
           "toolsDependencies": [
-            {
-              "packager": "esp32",
-              "name": "esp32-arduino-libs",
-              "version": "idf-release_v5.4-aed8bdc8-v1"
-            },
-            {
-              "packager": "esp32",
-              "name": "xtensa-esp-elf-gcc",
-              "version": "esp-14.2.0_20241119"
-            },
-            {
-              "packager": "esp32",
-              "name": "xtensa-esp-elf-gdb",
-              "version": "14.2_20240403"
-            },
-            {
-              "packager": "esp32",
-              "name": "openocd-esp32",
-              "version": "v0.12.0-esp32-20250422"
-            },
-            {
-              "packager": "esp32",
-              "name": "esptool_py",
-              "version": "4.9.dev3"
-            },
-            {
-              "packager": "esp32",
-              "name": "mkspiffs",
-              "version": "0.2.3"
-            },
-            {
-              "packager": "arduino",
-              "name": "dfu-util",
-              "version": "0.11.0-arduino5"
-            }
+            { "packager": "ExoNaut", "name": "esp32-arduino-libs", "version": "idf-release_v5.4-aed8bdc8-v1" },
+            { "packager": "ExoNaut", "name": "xtensa-esp-elf-gcc", "version": "esp-14.2.0_20241119" },
+            { "packager": "ExoNaut", "name": "esptool_py", "version": "4.9.dev3" },
+            { "packager": "ExoNaut", "name": "mkspiffs", "version": "0.2.3" }
           ]
         }
       ],
@@ -184,68 +151,6 @@
               "archiveFileName": "xtensa-esp-elf-14.2.0_20241119-x86_64-w64-mingw32.zip",
               "checksum": "SHA-256:62ae704777d73c30689efff6e81178632a1ca44d1a2d60f4621eb997e040e028",
               "size": "386316009"
-            }
-          ]
-        },
-        {
-          "name": "xtensa-esp-elf-gdb",
-          "version": "14.2_20240403",
-          "systems": [
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-x86_64-linux-gnu.tar.gz",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-x86_64-linux-gnu.tar.gz",
-              "checksum": "SHA-256:9d68472d4cba5cf8c2b79d94f86f92c828e76a632bd1e6be5e7706e5b304d36e",
-              "size": "31010320"
-            },
-            {
-              "host": "aarch64-linux-gnu",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-aarch64-linux-gnu.tar.gz",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-aarch64-linux-gnu.tar.gz",
-              "checksum": "SHA-256:bdabc3217994815fc311c4e16e588b78f6596b5ad4ffa46c80b40e982cfb1e66",
-              "size": "30954580"
-            },
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-arm-linux-gnueabi.tar.gz",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-arm-linux-gnueabi.tar.gz",
-              "checksum": "SHA-256:d54b8d703ba897b28c627da3d27106a3906dd01ba298778a67064710bc33c76d",
-              "size": "28697281"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-i586-linux-gnu.tar.gz",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-i586-linux-gnu.tar.gz",
-              "checksum": "SHA-256:64d3bc992ed8fdec383d49e8b803ac494605a38117c8293db8da055037de96b0",
-              "size": "29890994"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-x86_64-apple-darwin14.tar.gz",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-x86_64-apple-darwin14.tar.gz",
-              "checksum": "SHA-256:023e74b3fda793da4bc0509b02de776ee0dad6efaaac17bef5916fb7dc9c26b9",
-              "size": "44446611"
-            },
-            {
-              "host": "arm64-apple-darwin",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-aarch64-apple-darwin21.1.tar.gz",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-aarch64-apple-darwin21.1.tar.gz",
-              "checksum": "SHA-256:ea757c6bf8c25238f6d2fdcc6bbab25a1b00608a0f9e19b7ddd2f37ddbdc3fb1",
-              "size": "37021423"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-i686-w64-mingw32.zip",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-i686-w64-mingw32.zip",
-              "checksum": "SHA-256:322e8d9b700dc32d8158e3dc55fb85ec55de48d0bb7789375ee39a28d5d655e2",
-              "size": "26302466"
-            },
-            {
-              "host": "x86_64-mingw32",
-              "url": "https://github.com/espressif/binutils-gdb/releases/download/esp-gdb-v14.2_20240403/xtensa-esp-elf-gdb-14.2_20240403-x86_64-w64-mingw32.zip",
-              "archiveFileName": "xtensa-esp-elf-gdb-14.2_20240403-x86_64-w64-mingw32.zip",
-              "checksum": "SHA-256:a27a2fe20f192f8e0a51b8936428b4e1cf8935cfe008ee445cc49f6fc7f6db2e",
-              "size": "28366035"
             }
           ]
         },
