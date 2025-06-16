@@ -9,7 +9,7 @@
         {
           "name": "ExoNaut ESP32 Core", 
           "architecture": "esp32",
-          "version": "0.0.1", 
+          "version": "1.0.0", 
           "category": "Contributed",
           "url": "https://github.com/agafford-ST/platfromTest/raw/refs/heads/main/ExoNaut-esp32-0.0.1.zip",
           "archiveFileName": "ExoNaut-esp32-0.0.1.zip",
