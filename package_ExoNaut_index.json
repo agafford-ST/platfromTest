@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "ExoNaut",
+      "name": "ExoNaut Arduino",
       "maintainer": "Space Trek", 
       "websiteURL": "https://github.com/agafford-ST/platfromTest/",
       "email": "agafford@spacetrek.com", 
