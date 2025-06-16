@@ -25,47 +25,47 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "esp32-arduino-libs",
               "version": "idf-release_v5.4-aed8bdc8-v1"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "xtensa-esp-elf-gcc",
               "version": "esp-14.2.0_20241119"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "xtensa-esp-elf-gdb",
               "version": "14.2_20240403"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "riscv32-esp-elf-gcc",
               "version": "esp-14.2.0_20241119"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "riscv32-esp-elf-gdb",
               "version": "14.2_20240403"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "openocd-esp32",
               "version": "v0.12.0-esp32-20250422"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "esptool_py",
               "version": "4.9.dev3"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "mkspiffs",
               "version": "0.2.3"
             },
             {
-              "packager": "esp32",
+              "packager": "ExoNaut",
               "name": "mklittlefs",
               "version": "3.0.0-gnu12-dc7f933"
             },
