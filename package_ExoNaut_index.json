@@ -7,7 +7,7 @@
       "email": "agafford@spacetrek.com", 
       "platforms": [
         {
-          "name": "ExoNaut ESP32", 
+          "name": "ExoNaut ESP32 Core", 
           "architecture": "esp32",
           "version": "0.0.1", 
           "category": "Contributed",
@@ -20,7 +20,7 @@
           },
           "boards": [
             {
-              "name": "ESP32 Dev Board"
+              "name": "ExoNaut ESP32"
             }
           ],
           "toolsDependencies": [
