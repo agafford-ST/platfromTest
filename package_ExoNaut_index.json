@@ -11,7 +11,7 @@
           "architecture": "esp32",
           "version": "1.0.0", 
           "category": "Contributed",
-          "url": "https://agafford-ST.github.io/platfromTest/ExoNaut_ESP32_Core-1.0.0.zip",
+          "url": "https://github.com/agafford-ST/platfromTest/raw/refs/heads/main/ExoNaut_ESP32_Core-1.0.0.zip",
           "archiveFileName": "ExoNaut_ESP32_Core-1.0.0.zip",
           "checksum": "SHA-256:6C24495B32EA9E35971936480BA04B35C4A6D9D83C715806079CAFA93EFB86A0",
           "size": "32412284",
