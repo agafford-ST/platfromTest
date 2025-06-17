@@ -170,10 +170,10 @@
             },
             {
               "host": "x86_64-mingw32",
-              "url": "https://github.com/espressif/crosstool-NG/releases/download/esp-14.2.0_20241119/xtensa-esp-elf-14.2.0_20241119-x86_64-w64-mingw32.zip",
+              "url": "https://github.com/agafford-ST/platfromTest/releases/download/v0.0.1/xtensa-esp-elf-14.2.0_20241119-x86_64-w64-mingw32.zip",
               "archiveFileName": "xtensa-esp-elf-14.2.0_20241119-x86_64-w64-mingw32.zip",
-              "checksum": "SHA-256:62ae704777d73c30689efff6e81178632a1ca44d1a2d60f4621eb997e040e028",
-              "size": "386316009"
+              "checksum": "SHA-256:7401357B755AB6F10790C4375AB891B4A871A3FFCC7BDECDACF62336BE340AEF",
+              "size": "247894016"
             }
           ]
         },
